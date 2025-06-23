@@ -139,6 +139,7 @@ const VideoPlayer: React.FC<VideoPlayerProps> = ({
         <iframe
           ref={videoRef}
           src={`https://www.youtube.com/embed/_ZBNz_rs41E?autoplay=1&playsinline=1`}
+          src={`https://www.youtube.com/embed/_ZBNz_rs41E?autoplay=1&playsinline=1`}
           className="absolute top-0 left-0 w-full h-full"
           frameBorder="0"
           allow="autoplay; fullscreen; picture-in-picture"
