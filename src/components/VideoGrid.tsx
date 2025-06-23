@@ -21,7 +21,7 @@ const VideoGrid: React.FC<VideoGridProps> = ({ activeTab }) => {
   const videos: Video[] = [
     {
       id: '1',
-      videoId: 'FP0f4_XxZJE',
+      videoId: '1095495803',
       title: 'Advanced Calculus - Differential Equations',
       description: 'Learn advanced calculus concepts including differential equations and their real-world applications.',
       category: 'mathematics'
