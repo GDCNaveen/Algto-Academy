@@ -138,23 +138,14 @@ const VideoPlayer: React.FC<VideoPlayerProps> = ({
       <div className="relative w-full" style={{ paddingBottom: '56.25%' }}>
         <iframe
           ref={videoRef}
-          src={`https://player.vimeo.com/video/${videoId}?h=0efed48f89&badge=0&autopause=0&controls=0&title=0&byline=0&portrait=0`}
+          src={`https://player.vimeo.com/video/${videoId}?h=0efed48f89&badge=0&autopause=0&controls=0&title=0&byline=0&portrait=0`},
+        src={`https://player.vimeo.com/video/${videoId}?h=55eac0fa5a&badge=0&autopause=0&controls=0&title=0&byline=0&portrait=0`}
           className="absolute top-0 left-0 w-full h-full"
           frameBorder="0"
           allow="autoplay; fullscreen; picture-in-picture"
           title={title}
         />
-         <div className="relative w-full" style={{ paddingBottom: '56.25%' }}>
-        <iframe
-          ref={videoRef}
-          src={`https://player.vimeo.com/video/${videoId}?h=55eac0fa5a&badge=0&autopause=0&controls=0&title=0&byline=0&portrait=0`}
-          
-          className="absolute top-0 left-0 w-full h-full"
-          frameBorder="0"
-          allow="autoplay; fullscreen; picture-in-picture"
-          title={title}
-        />
-        
+                 
         {/* Play/Pause Overlay */}
         <div className="absolute inset-0 flex items-center justify-center">
           <button
