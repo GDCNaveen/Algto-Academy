@@ -28,7 +28,7 @@ const VideoGrid: React.FC<VideoGridProps> = ({ activeTab }) => {
     },
     {
       id: '2',
-      videoId: '1089573650',
+      videoId: '_ZBNz_rs41E',
       title: 'Physics - Quantum Mechanics Basics',
       description: 'Introduction to quantum mechanics and wave-particle duality principles.',
       category: 'physics'
