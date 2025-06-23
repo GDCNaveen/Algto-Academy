@@ -138,7 +138,7 @@ const VideoPlayer: React.FC<VideoPlayerProps> = ({
       <div className="relative w-full" style={{ paddingBottom: '56.25%' }}>
         <iframe
           ref={videoRef}
-          src={`https://player.vimeo.com/video/${videoId}?h=0efed48f89&badge=0&autopause=0&controls=0&title=0&byline=0&portrait=0`}
+          src={`https://www.youtube.com/embed/FP0f4_XxZJE?autoplay=1&playsinline=1`}
           className="absolute top-0 left-0 w-full h-full"
           frameBorder="0"
           allow="autoplay; fullscreen; picture-in-picture"
